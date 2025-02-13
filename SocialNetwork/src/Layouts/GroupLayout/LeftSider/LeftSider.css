@@ -1,0 +1,19 @@
+.Group_sidebar {
+    background-color: #f0f2f5;
+    padding: 20px;
+    height: calc(100vh - 60px);
+    position: fixed;
+    top: 60px;
+    overflow-y: auto;
+    left: 0;
+    width: 220px;
+  }
+
+  .Group_sidebar .menu{
+    background: transparent;
+    border: none;
+  }
+
+  .Group_sidebar .menu .menu-item {
+    font-size: 16px;
+  }

@@ -1,0 +1,25 @@
+.videoCall-Container {
+    position: fixed;
+    right: 100px;
+    top: 0;
+    background: transparent;
+}
+
+.videoCall-Container .remote-video {
+    position: relative;
+    width: 400px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.videoCall-Container .local-video {
+    position: absolute;
+    top: 30px; /* Khoảng cách từ đỉnh của local-video */
+    right: 40px; /* Khoảng cách từ bên phải của local-video */
+    width: 100px; /* Kích thước nhỏ hơn để nằm trong local-video */
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid white; /* Viền để nổi bật */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0);
+    z-index: 2;
+}

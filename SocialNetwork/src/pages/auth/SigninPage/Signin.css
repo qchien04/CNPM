@@ -1,0 +1,52 @@
+/* Container chính */
+.center-container {
+  display: flex;
+  flex-direction: column; /* Sắp xếp theo cột */
+  align-items: center;    /* Căn giữa theo chiều ngang */
+  justify-content: center; /* Căn giữa theo chiều dọc */
+  height: 100vh;           /* Chiều cao toàn màn hình */
+  background-color: #f9f9f9; /* Màu nền nhẹ nhàng */
+  padding: 20px;            /* Thêm khoảng trống xung quanh */
+}
+
+/* Tiêu đề */
+.center-container h2 {
+  margin-bottom: 24px; /* Khoảng cách dưới tiêu đề */
+  font-size: 28px;
+  font-weight: bold;
+  color: #1890ff; /* Màu xanh đặc trưng của Ant Design */
+}
+
+/* Form login */
+.formlogin {
+  background: #fff; /* Nền trắng cho form */
+  padding: 20px;    /* Khoảng trống bên trong form */
+  border-radius: 8px; /* Bo góc form */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
+  max-width: 400px; /* Giới hạn chiều rộng */
+  width: 100%;
+}
+
+/* Các item trong form */
+.formlogin .ant-form-item {
+  margin-bottom: 16px; /* Khoảng cách giữa các item */
+}
+
+/* Nút Login */
+.formlogin .ant-btn {
+  width: 100%;        /* Nút rộng bằng form */
+  font-size: 16px;    /* Tăng kích thước chữ */
+  height: 40px;       /* Tăng chiều cao nút */
+  border-radius: 6px; /* Bo góc nút */
+  background-color: #1890ff; /* Màu xanh */
+  border: none;       /* Loại bỏ viền */
+}
+
+.formlogin .ant-btn:hover {
+  background-color: #40a9ff; /* Màu xanh nhạt hơn khi hover */
+}
+
+/* Google Login button */
+.center-container .google-login {
+  margin-top: 16px; /* Khoảng cách giữa form và nút Google Login */
+}

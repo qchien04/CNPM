@@ -1,0 +1,7 @@
+.home_post_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+    width: 100%;
+}

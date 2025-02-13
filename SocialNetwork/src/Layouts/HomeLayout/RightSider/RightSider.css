@@ -1,0 +1,35 @@
+.Home_sidebar-right {
+    position: absolute;
+    background-color: #f0f2f5;
+    padding: 0px;
+    height: calc(100vh - 60px);
+    top: 60px;
+    overflow-y: scroll;
+    right: 0;
+    justify-content: center;
+    padding-top: 60px;
+  }
+
+
+  .Home_sidebar-right .sidebar-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .Home_sidebar-right .friend{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0;
+  }
+
+  
+  .Home_sidebar-right .friend .friend-icon{
+    color: green;
+    font-size: 18px;
+  }
+
+  .custom-sider {
+    border-right: none !important;
+    background-color: inherit;
+  }

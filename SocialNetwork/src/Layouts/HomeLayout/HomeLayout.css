@@ -1,0 +1,25 @@
+
+  .home-content {
+    background-color: white;
+    padding: 20px;
+    margin-top: 60px;
+    overflow: auto;
+    min-height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .post {
+    background: #f0f2f5;
+    padding: 20px;
+    border-radius: 10px;
+
+  }
+  
+  
+  
+  
+  

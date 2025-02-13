@@ -1,0 +1,143 @@
+.profile-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    
+}
+
+.profile-top{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+    justify-content: center;
+    align-items: center; /* Căn giữa ảnh */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+}
+
+.profile-top .cover_photo{
+    width: 1100px;
+    height: 350px;
+    background-color: rgb(164, 158, 158);
+}
+
+.profile-top .basic_infor{
+    width: 950px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avatar_profile{
+    margin-left: 10px;
+    position: absolute;
+    top: 70%;
+}
+
+.operation_profile{
+    position: absolute;
+    right: 10px;
+    bottom: -70px;
+}
+.ant-tabs-nav{
+    margin-bottom: 0 !important;
+    padding-bottom: 0;
+    
+}
+.ant-tabs-nav-wrap{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+}
+
+
+.profile-bottom {
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center; /* Đảm bảo căn giữa các phần tử con */
+    margin: 0 auto; /* Căn giữa cả khối */
+    position: relative;
+}
+
+.left-profile{
+    position: sticky;
+    top: -350px;
+}
+
+.left-profile .section_profile-bottom-left{
+    margin-top: 19px;
+    margin-right: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* profile right ----------------------------------------------------------------------------- */
+.profile-bottom .right-profile {
+    width: 60%; /* Chiếm 70% chiều rộng */
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.profile-bottom .right-profile .upload{
+    width: 100%; 
+    background-color: aliceblue;
+    padding: 0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.profile-bottom .right-profile .filter{
+    width: 100%; 
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.profile-bottom .right-profile .post_list{
+    width: 100%; 
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+.picture_element{
+    border-radius: 10px;
+    width: 95%;
+    height: 95%;
+    text-align: center;
+    padding: 5px;
+}
+
+.avt_element{
+    border-radius: 10px;
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    padding: 5px;
+}
+
+.button_upload_post{
+    height:50px;
+    margin: 1px;
+    font-size: 18px;
+}

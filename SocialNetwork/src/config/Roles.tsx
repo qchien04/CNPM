@@ -1,0 +1,9 @@
+enum ROLE{
+	SUPER_ADMIN= 'SUPER_ADMIN',
+	ADMIN= 'admin',
+	MANAGER= 'MANAGER',
+	CUSTOMER= 'CUSTOMER',
+	GUEST= 'GUEST'
+};
+
+export default ROLE;

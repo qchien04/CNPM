@@ -1,0 +1,95 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Build Output
+out/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Logs
+logs/
+*.log
+hs_err_pid*.log
+
+# Dependency Caches
+.mvn/
+*.jar
+*.war
+*.ear
+
+# Spring Boot Specific
+*.env
+*.properties
+*.yml
+*.yaml
+secrets.env
+
+# IDE / Editors
+## STS (Spring Tool Suite)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+## IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+## NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+## Eclipse
+*.metadata
+*.classpath
+*.project
+/.settings/
+
+## VS Code
+.vscode/
+
+# OS Specific Files
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+
+# Sensitive Config Files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
+application.properties
+application.yml
+application.yaml
+
+
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
+
+docker-compose.yml
+docker-compose.override.yml
+Dockerfile
+.dockerignore
+**/docker-data/
+**/docker-volumes/
+**/docker-logs/
+

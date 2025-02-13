@@ -1,0 +1,31 @@
+.Home_sidebar-left {
+    background-color: #f0f2f5;
+    padding: 0px;
+    height: calc(100vh - 60px);
+    top: 60px;
+    overflow-y: auto;
+    left: 0;
+    width: 100%;
+    border-right: none;
+    background-color: inherit;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .Home_sidebar-left .menu{
+    width: 300px;
+    background: transparent;
+    border: none !important;
+    font-size: 40px; 
+  }
+
+
+  .Home_sidebar-left .ant-menu-item {
+    font-size: 15px; /* Kích thước chữ */
+    margin-top: 20px;
+    
+  }
+
+  .Home_sidebar-left .ant-menu-item .anticon {
+    font-size: 25px; /* Kích thước icon */
+  }

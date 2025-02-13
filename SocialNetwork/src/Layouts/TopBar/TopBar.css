@@ -1,0 +1,93 @@
+.Home_header_navbar {
+  background-color: white;
+  box-shadow: 0 2px 4px white ;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  padding: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  border-bottom: 1px solid rgb(99, 98, 98);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); 
+}
+
+.Home_header_navbar .Home_header_navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+  .Home_header_navbar .Home_header_navbar-left .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #d01414;
+  }
+
+  .Home_header_navbar .Home_header_navbar-left .search-bar {
+    display: flex;
+    align-items: center;
+    background: #f0f2f5;
+    padding: 5px 10px;
+    border-radius: 20px;
+  }
+    .Home_header_navbar .Home_header_navbar-left .search-bar .search-input {
+      border: none;
+      background: transparent;
+      outline: none;
+      padding-left: 5px;
+      height: 100%;
+    }
+
+
+
+.Home_header_navbar .Home_header_navbar-mid{
+  flex: 1;
+  position: absolute;
+  left: 50%;
+  top:-4%;
+  transform: translateX(-50%);
+  align-items: center;
+  }
+
+  .Home_header_navbar .Home_header_navbar-mid .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    border-bottom: none !important;
+    gap:10px;
+  }
+
+.Home_header_navbar-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  
+  gap:10px;
+}
+
+.Home_header_navbar-right .icon {
+  font-size: 21px;
+  margin-left: 0px;
+  cursor: pointer;
+}
+
+.Home_header_navbar-mid .ant-menu-item {
+  font-size: 30px; /* Kích thước chữ */
+  margin-top: 20px;
+  
+}
+
+.Home_header_navbar-mid .ant-menu-item .anticon {
+  font-size: 20px; /* Kích thước icon */
+}
+.menu a {
+  text-decoration: none !important;
+}
+
+
+

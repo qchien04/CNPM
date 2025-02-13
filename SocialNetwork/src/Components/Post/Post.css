@@ -1,0 +1,10 @@
+.full-width-image .ant-image-img {
+  width: 100% !important;
+  height: auto !important;
+  max-height: 500px; /* Tùy chỉnh nếu cần */
+  object-fit: contain;
+}
+
+.ant-image{
+  width: 100% !important  ;
+}
